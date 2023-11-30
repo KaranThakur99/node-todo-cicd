@@ -6,7 +6,7 @@ pipeline {
         stage("code"){
             steps{
                 git url: "https://github.com/LondheShubham153/node-todo-cicd.git", branch: "master"
-                echo 'bhaiyya code clone ho gaya'
+                echo 'bhaiyya code clone hojayega aise'
             }
         }
         stage("build and test"){
